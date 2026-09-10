@@ -212,6 +212,29 @@
     margin-top:10px;
   }
 
+
+  .lesson-card.now {
+    border: 2px solid var(--gold);
+    background: #FFFCF5;
+    box-shadow: 0 4px 14px rgba(154, 123, 46, 0.16);
+    position: relative;
+  }
+  .badge-now-live {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: #FEF3C7;
+    color: #92400E;
+    font-weight: 600;
+    margin-right: 6px;
+    animation: pulse-now 2s infinite ease-in-out;
+  }
+  @keyframes pulse-now {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.55; }
+  }
+
+
 #week-0:checked ~ .app .week-nav-0 { display:flex; }
 #week-1:checked ~ .app .week-nav-1 { display:flex; }
 #week-2:checked ~ .app .week-nav-2 { display:flex; }
@@ -511,661 +534,661 @@
 </div>
 
 <div class="panel panel-4101-mon-0"><div class="no-data"><div class="big">Занятий нет</div>на этой неделе</div></div>
-<div class="panel panel-4101-mon-1"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-mon-1"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ФиФР</p>
     <div class="details">т. 1 с<br>Ефимович В.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 1 с<br>Кравец В.В.<br>ауд. 228 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 4-5 Лекция<br>Вильмак Д.Г.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Оперативно-розыскная деятельность органов внутренних дел*</p>
     <div class="details">т. 2 Лекция<br>Шинкевич А.М.<br>Л/з № 3 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-mon-2"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-mon-2"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданский процесс</p>
     <div class="details">т. 4-5 Лекция<br>Фицук Т.М.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Оперативно-розыскная деятельность органов внутренних дел*</p>
     <div class="details">т. 4 Лекция<br>Мартынов А.О.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 3.5 пр<br>Равко Р.В. Турок Н.А. спортгородок</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Сем. право</p>
     <div class="details">т. 4 с<br>Яхновец И.Н.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">ОУТС и БДД</p>
     <div class="details">т. 2.1 Лекция<br>Серебряков В.В.<br>Л/з № 2 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-mon-3"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-mon-3"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Основы пользования БПЛА в правоохранительных органах</p>
     <div class="details">т. 2.3 Лекция<br>Назаренко Д.А.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 4 с<br>Кравец В.В.<br>ауд. 243 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОпБПЛАвПО</p>
     <div class="details">т. 2.2 с<br>Чепик П.А.<br>ауд. 509 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 6-7 Лекция<br>Вильмак Д.Г.<br>Л/з № 3 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-mon-4"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-mon-4"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 8 Лекция<br>Вильмак Д.Г.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданский процесс</p>
     <div class="details">т. 7 Лекция<br>Фицук Т.М.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданский процесс</p>
     <div class="details">т. 8, 9 Лекция<br>Фицук Т.М.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданское право (часть 2)</p>
     <div class="details">т. 2 Лекция<br>Березнев Р.Ю.<br>Л/з № 2 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-mon-5"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-mon-5"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Криминалистика</p>
     <div class="details">т. 6.1 Лекция<br>Костюкевич Д.В.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ФиФР</p>
     <div class="details">т. 3 с<br>Ефимович В.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 8 пр<br>Вильмак Д.Г.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 7.1 пр<br>Кравец В.В.<br>ауд. 222 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">ОУТС и БДД</p>
     <div class="details">т. 6.1 Лекция<br>Серебряков В.В.<br>Л/з № 2 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-mon-6"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-mon-6"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданское право (часть 2)</p>
     <div class="details">т. 5 Лекция<br>Березнев Р.Ю.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. право (часть 2)</p>
     <div class="details">т. 3,4 с<br>Березнев Р.Ю.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 6.1 с<br>Дешук А.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 4.2 пр<br>Равко Р.В. Турок Н.А. спортгородок</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-mon-7"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-mon-7"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОпБПЛАвПО</p>
     <div class="details">т. 4.2 пр<br>Горбачев С.В.<br>Чепик П.А.<br>ПОЛИГОН<br>ауд. 226 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. проц.</p>
     <div class="details">т. 11-12 с<br>Фицук Т.М.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 12-13 Лекция<br>Вильмак Д.Г.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданский процесс</p>
     <div class="details">т. 13-14 Лекция<br>Фицук Т.М.<br>Л/з № 2 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-mon-8"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-mon-8"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Бухгалтерский учет и аудит</p>
     <div class="details">т. 7 Лекция<br>Дорошкевич Н.М.<br>ауд. Л/з № 2-304 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">БУиА</p>
     <div class="details">т. 5 с<br>Сауткин И.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 14.3 пр<br>Равко Р.В. Турок Н.А. с/з МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. проц.</p>
     <div class="details">т. 13-14 с<br>Фицук Т.М.<br>ауд. 2-305 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-mon-9"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-mon-9"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданский процесс</p>
     <div class="details">т. 16 Лекция<br>Фицук Т.М.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. проц.</p>
     <div class="details">т. 15 с<br>Фицук Т.М.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Бухгалтерский учет и аудит</p>
     <div class="details">т. 7 Лекция<br>Дорошкевич Н.М.<br>ауд. 2-304 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 10 с<br>Кравцова М.А.<br>ауд. 2-403 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Огн.подг-ка</p>
     <div class="details">т. 22.1 пр<br>Денисевич М.В.<br>Протосевич С.И.<br>Тир МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-mon-10"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-mon-10"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданское право (часть 2)</p>
     <div class="details">т. 8.2 Лекция<br>Березнев Р.Ю.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 15 Лекция<br>Вильмак Д.Г.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 6.3 с<br>Дешук А.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. проц.</p>
     <div class="details">т. 16 с<br>Фицук Т.М.<br>ауд. 2-303 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-mon-11"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-mon-11"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ФиФР</p>
     <div class="details">т. 6 с<br>Ефимович В.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 6.4 с<br>Дешук А.В.<br>ауд. 2-403 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Финансы и финансовый рынок</p>
     <div class="details">т. 7 Лекция<br>Дешук А.В.<br>ауд. Л/з  № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Криминалистика</p>
     <div class="details">т. 8.1 Лекция<br>Ропот Р.М.<br>Л/з № 3 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-mon-12"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-mon-12"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданский процесс</p>
     <div class="details">т. 21-22 Лекция<br>Фицук Т.М.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 18 Лекция<br>Вильмак Д.Г.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 8 с<br>Дешук А.В.<br>ауд. 2-433 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 17.3 пр<br>Равко Р.В.<br>Турок Н.А. с/з МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-mon-13"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-mon-13"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданский процесс</p>
     <div class="details">т. 23-25 Лекция<br>Фицук Т.М.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 18 с<br>Вильмак Д.Г.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">БУиА</p>
     <div class="details">т. 7 с<br>Сауткин И.В.<br>ауд. 512 МАШ<br>Дорошкевич Н.М.<br>ауд. 508 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Огн.подг-ка</p>
     <div class="details">т. 23.1 пр<br>Денисевич М.В.<br>Протосевич С.И.<br>Тир МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-mon-14"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-mon-14"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданский процесс</p>
     <div class="details">т. 26-27 Лекция<br>Фицук Т.М.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 8.4 пр<br>Ропот Р.М.<br>Костюкевич Д.В.<br>ауд. 127a МАШ 130 МАШ<br>ауд. 126 МАШ 132 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 19 пр<br>Вильмак Д.Г.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Сем. право</p>
     <div class="details">т. 11 с<br>Яхновец И.Н.<br>ауд. 2-303 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-mon-15"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-mon-15"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 20 Лекция<br>Вильмак Д.Г.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 9.3 пр<br>Ропот Р.М. ауд. 127а МАШ<br>Костюкевич Д.В. ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 9.3 пр<br>Ропот Р.М. ауд. 127а МАШ<br>Костюкевич Д.В. ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Огн.подг-ка</p>
     <div class="details">т. 23.3 пр<br>Денисевич М.В.<br>Протосевич С.И.<br>Тир МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-mon-16"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-mon-16"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. право (часть 2)</p>
     <div class="details">т. 13.2,14 с<br>Березнев Р.Ю.<br>ауд. 2-303ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 17.3 пр<br>Кравец В.В.<br>ауд. 245 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 25.2 пр<br>Равко Р.В.<br>Турок Н.А. с/з МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 11.2 с<br>Ропот Р.М.<br>ауд. 127а МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-mon-17"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-mon-17"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Бухгалтерский учет и аудит</p>
     <div class="details">т. 10 Лекция<br>Дорошкевич Н.М.<br>ауд. Л/з № 2-304 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">БУиА</p>
     <div class="details">т. 9 с<br>Сауткин И.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 19.1 пр<br>Кравец В.В.<br>ауд. 245 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданское право (часть 2)</p>
     <div class="details">т. 16,17 Лекция<br>Березнев Р.Ю.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card">
+</div><div class="lesson-card" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <p class="subject">ППФП</p>
     <div class="details">Зачет<br>Равко Р.В.<br>Турок Н.А. с/з МАШ<br>15.50</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-mon-18"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-mon-18"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 22-23 с<br>Вильмак Д.Г.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card">
+</div><div class="lesson-card" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <p class="subject">БУиА</p>
     <div class="details">Зачет<br>Сауткин И.В.<br>ауд. 512 МАШ<br>10.00</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-tue-0"><div class="lessons"><div class="lesson-card">
+<div class="panel panel-4101-tue-0"><div class="lessons"><div class="lesson-card" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <p class="subject">День знаний</p>
     <div class="details">Л/з № 2 МАШ<br>ДЕНЬ ЗНАНИЙ!!!</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 1-3 Лекция<br>Вильмак Д.Г.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданский процесс</p>
     <div class="details">т. 1 Лекция<br>Фицук Т.М.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Оперативно-розыскная деятельность органов внутренних дел*</p>
     <div class="details">т. 1 Лекция<br>Мартынов А.О.<br>Л/з № 3 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-tue-1"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-tue-1"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданское право (часть 2)</p>
     <div class="details">т. 1.1 Лекция<br>Березнев Р.Ю.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Криминалистика</p>
     <div class="details">т. 1.1 Лекция<br>Ропот Р.М.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Основы пользования БПЛА в правоохранительных органах</p>
     <div class="details">т. 1.1 Лекция<br>Назаренко Д.А.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 3.3 пр<br>Равко Р.В. Турок Н.А. спортгородок</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОУТС и БДД</p>
     <div class="details">т. 1.1. с<br>Серебряков В.В.<br>ауд. 508 МАШ<br>ауд. 512 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-tue-2"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-tue-2"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Криминалистика</p>
     <div class="details">т. 3.1 Лекция<br>Ропот Р.М.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Криминалистика</p>
     <div class="details">т. 4.1 Лекция<br>Костюкевич Д.В.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 2.2 с<br>Ропот Р.М.<br>ауд. 127а МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. право (часть 2)</p>
     <div class="details">т. 1.1 с<br>Березнев Р.Ю.<br>ауд. 2-303ФКМ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">ОУТС и БДД</p>
     <div class="details">т. 3.1 Лекция<br>Серебряков В.В.<br>Л/з № 2 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-tue-3"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-tue-3"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданский процесс</p>
     <div class="details">т. 6 Лекция<br>Фицук Т.М.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 6 Лекция<br>Кравцова М.А.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 4-5 с<br>Кравцова М.А.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОпБПЛАвПО</p>
     <div class="details">т. 2.4 с<br>Чепик П.А.<br>ауд. 508 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">ОУТС и БДД</p>
     <div class="details">т. 4.1 Лекция<br>Серебряков В.В.<br>Л/з № 2 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-tue-4"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-tue-4"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Оперативно-розыскная деятельность органов внутренних дел*</p>
     <div class="details">т. 7 Лекция<br>Мартынов А.О.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Финансы и финансовый рынок</p>
     <div class="details">т. 3 Лекция<br>Дешук А.В.<br>ауд. Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 5 Лекция<br>Дешук А.В.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 4.1 пр<br>Равко Р.В. Турок Н.А. спортгородок</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">ОУТС и БДД</p>
     <div class="details">т. 5.1 Лекция<br>Серебряков В.В.<br>Л/з № 2 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-tue-5"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-tue-5"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданский процесс</p>
     <div class="details">т. 10 Лекция<br>Фицук Т.М.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Финансы и финансовый рынок</p>
     <div class="details">т. 4.1 Лекция<br>Дешук А.В.<br>ауд. Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Финансы и финансовый рынок</p>
     <div class="details">т. 4.2 Лекция<br>Дешук А.В.<br>ауд. Л/з № 2-304 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. проц.</p>
     <div class="details">т. 8-9 с<br>Фицук Т.М.<br>ауд. 2-303 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-tue-6"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-tue-6"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Оперативно-розыскная деятельность органов внутренних дел*</p>
     <div class="details">т. 9 Лекция<br>Мартынов А.О.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 10 Лекция<br>Вильмак Д.Г.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 6.1 с<br>Дешук А.В.<br>ауд. 2-403 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
@@ -1173,743 +1196,743 @@
   </div>
 </div></div></div>
 <div class="panel panel-4101-tue-7"><div class="no-data"><div class="big">Занятий нет</div>на этой неделе</div></div>
-<div class="panel panel-4101-tue-8"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-tue-8"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 6.3 пр<br>Костюкевич Д.В. ауд. 2-303 ФКМ<br>Беломытцев Н.Н. ауд. 2-305 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 6.3 пр<br>Костюкевич Д.В. ауд. 2-303 ФКМ<br>Беломытцев Н.Н. ауд. 2-305 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. право (часть 2)</p>
     <div class="details">т. 5 с<br>Березнев Р.Ю.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 10 с<br>Вильмак Д.Г.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Огн.подг-ка</p>
     <div class="details">т. 21.2 пр<br>Денисевич М.В.<br>Протосевич С.И.<br>Тир МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-tue-9"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-tue-9"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Сем. право</p>
     <div class="details">т. 6 с<br>Яхновец И.Н.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Оперативно-розыскная деятельность органов внутренних дел*</p>
     <div class="details">т. 12 Лекция<br>Башан А.В.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 12-13 с<br>Вильмак Д.Г.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. право (часть 2)</p>
     <div class="details">т. 6 с<br>Березнев Р.Ю.<br>ауд. 2-303ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-tue-10"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-tue-10"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданское право (часть 2)</p>
     <div class="details">т. 8.3 Лекция<br>Березнев Р.Ю.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Семейное право</p>
     <div class="details">т. 8 Лекция<br>Яхновец И.Н.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОпБПЛАвПО</p>
     <div class="details">т. 4.4 пр<br>Горбачев С.В.<br>Чепик П.А.<br>.<br>ауд. 314 БАГ<br>ауд. 308 БАГ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОпБПЛАвПО</p>
     <div class="details">т. 4.4 пр<br>Горбачев С.В.<br>Чепик П.А.<br>.<br>ауд. 314 БАГ<br>ауд. 308 БАГ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-tue-11"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-tue-11"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Финансы и финансовый рынок</p>
     <div class="details">т. 8.1 Лекция<br>Дешук А.В.<br>ауд. Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. право (часть 2)</p>
     <div class="details">т. 8.1 с<br>Березнев Р.Ю.<br>ауд. 2-303ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т.12.1 пр<br>Кравец В.В.<br>ауд. 243 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 14.6 пр<br>Равко Р.В. Турок Н.А. с/з МАШ</div>
   </div>
-</div><div class="lesson-card">
+</div><div class="lesson-card" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <p class="subject">ОпБПЛАвПО</p>
     <div class="details">Зачет<br>Назаренко Д.А.<br>Чепик П.А.<br>ауд. 226 МАШ<br>15.50</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-tue-12"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-tue-12"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданское право (часть 2)</p>
     <div class="details">т. 9 Лекция<br>Березнев Р.Ю.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Оперативно-розыскная деятельность органов внутренних дел*т. 13 Лекция</p>
     <div class="details">Шинкевич А.М.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Семейное право</p>
     <div class="details">т. 9,10 Лекция<br>Яхновец И.Н.<br>Л/з № 12МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ФиФР</p>
     <div class="details">т. 8.1 с<br>Ефимович В.В.<br>ауд. 2-303 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-tue-13"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-tue-13"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 19 Лекция<br>Вильмак Д.Г.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Оперативно-розыскная деятельность органов внутренних дел*</p>
     <div class="details">т. 14 Лекция<br>Шинкевич А.М.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ФиФР</p>
     <div class="details">т. 9.1 с<br>Ефимович В.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 17.6 пр<br>Равко Р.В.<br>Турок Н.А. с/з МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-tue-14"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-tue-14"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданское право (часть 2)</p>
     <div class="details">т. 13.1 Лекция<br>Березнев Р.Ю.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. право (часть 2)</p>
     <div class="details">т. 10,11,12 с<br>Березнев Р.Ю.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 14.3 пр<br>Кравец В.В.<br>ауд. 243 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 22.2 пр<br>Равко Р.В.<br>Турок Н.А. с/з МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-tue-15"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-tue-15"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданское право (часть 2)</p>
     <div class="details">т. 13.2,14 Лекция<br>Березнев Р.Ю.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданский процесс</p>
     <div class="details">т. 28 Лекция<br>Фицук Т.М.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 24.2 пр<br>Равко Р.В.<br>Турок Н.А. с/з МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 16.2 пр<br>Кравец В.В.<br>ауд. 245 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Огн.подг-ка</p>
     <div class="details">т. 24.1 пр<br>Денисевич М.В.<br>Протосевич С.И.<br>Тир МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-tue-16"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-tue-16"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 11.3 пр<br>Костюкевич Д.В. ауд. 2-303 ФКМ<br>Ропот Р.М. ауд. 127а МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 12.2 с<br>Ропот Р.М.<br>ауд. 127а МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 21 Лекция<br>Вильмак Д.Г.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Оперативно-розыскная деятельность органов внутренних дел*</p>
     <div class="details">т. 18 Лекция<br>Кайбелев П.А.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card">
+</div><div class="lesson-card" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <p class="subject">Гражд. проц.</p>
     <div class="details">Зачет<br>Фицук Т.М.<br>ауд. 2-303 ФКМ<br>15.50</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-tue-17"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-tue-17"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">БУиА</p>
     <div class="details">т. 10.1 с<br>Сауткин И.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">БУиА</p>
     <div class="details">т. 10.2 с<br>Сауткин И.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 20 с<br>Кравец В.В.<br>ауд. 245 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Огн.подг-ка</p>
     <div class="details">т. 24.3 пр<br>Денисевич М.В.<br>Протосевич С.И.<br>Тир МАШ</div>
   </div>
-</div><div class="lesson-card">
+</div><div class="lesson-card" data-pair="6">
   <div class="lesson-time"><span class="num">6 пара</span>17.20&#8211;<br>18.40</div>
   <div class="lesson-body">
     <p class="subject">Крим-ка</p>
     <div class="details">Зачет<br>Ропот Р.М. ауд. 512 МАШ<br>ауд.  127а МАШ<br>17.20</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-tue-18"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-tue-18"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 24-25 с<br>Вильмак Д.Г.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card">
+</div><div class="lesson-card" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <p class="subject">Гражд. право (часть 2)</p>
     <div class="details">Зачет<br>Березнев Р.Ю.<br>ауд. 2-303ФКМ<br>10.00</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-0"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-wed-0"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданский процесс</p>
     <div class="details">т. 2 Лекция<br>Фицук Т.М.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Семейное право</p>
     <div class="details">т. 1,3 Лекция<br>Яхновец И.Н.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Профессионально-прикладная физическая подготовка</p>
     <div class="details">т. 2 Лекция<br>Михеев Н.А.<br>Л/з №  2 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-1"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-wed-1"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Семейное право</p>
     <div class="details">т. 4 Лекция<br>Яхновец И.Н.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОУТС и БДД</p>
     <div class="details">т. 1.2. с<br>Серебряков В.В.<br>ауд. 509 МАШ<br>ауд. 510 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 2 с<br>Кравец В.В.<br>ауд. 222 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 3.4 пр<br>Равко Р.В. Турок Н.А. спортгородок</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-2"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-wed-2"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Криминалистика</p>
     <div class="details">т. 4.2 Лекция<br>Костюкевич Д.В.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. проц.</p>
     <div class="details">т. 4-5 с<br>Фицук Т.М.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 1-3 с<br>Дешук А.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 3 с<br>Кравец В.В.<br>ауд. 245 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-3"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-wed-3"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 3.7 пр<br>Равко Р.В. Турок Н.А. спортгородок</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Оперативно-розыскная деятельность органов внутренних дел*</p>
     <div class="details">т. 5 Лекция<br>Мартынов А.О.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 4.3 пр<br>Костюкевич Д.В. ауд. 127a МАШ 130 МАШ<br>Ропот Р.М. ауд. 126 МАШ 132 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 4.3 пр<br>Костюкевич Д.В. ауд. 127a МАШ 130 МАШ<br>Ропот Р.М. ауд. 126 МАШ 132 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-4"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-wed-4"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 9 Лекция<br>Вильмак Д.Г.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 6-7 пр<br>Вильмак Д.Г.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. право (часть 2)</p>
     <div class="details">т. 2.1 с<br>Березнев Р.Ю.<br>ауд. 2-303ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ФиФР</p>
     <div class="details">т. 2.2 с<br>Ефимович В.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОУТС и БДД</p>
     <div class="details">т. 5 с<br>Серебряков В.В.<br>ауд. 508 МАШ<br>ауд. 510 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-5"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-wed-5"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Семейное право</p>
     <div class="details">т. 6 Лекция<br>Яхновец И.Н.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 8 Лекция<br>Кравцова М.А.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 7 с<br>Кравцова М.А.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 5.2 с<br>Ропот Р.М.<br>ауд. 127а МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">ОУТС и БДД</p>
     <div class="details">т. 7.1 Лекция<br>Серебряков В.В.<br>Л/з № 2 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-6"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-wed-6"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ФиФР</p>
     <div class="details">т. 4 пр<br>Ефимович В.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 4.4 пр<br>Равко Р.В. Турок Н.А. спортгородок</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 5.2 с<br>Дешук А.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 9 с<br>Кравец В.В.<br>ауд. 245 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-7"><div class="lessons"><div class="lesson-card">
+<div class="panel panel-4101-wed-7"><div class="lessons"><div class="lesson-card" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <p class="subject">Тактико-специальные учения</p>
     <div class="details">ТАКТИКО-СПЕЦИАЛЬНЫЕ УЧЕНИЯ</div>
   </div>
-</div><div class="lesson-card">
+</div><div class="lesson-card" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <p class="subject">Тактико-специальные учения</p>
     <div class="details">ТАКТИКО-СПЕЦИАЛЬНЫЕ УЧЕНИЯ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-8"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-wed-8"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Оперативно-розыскная деятельность органов внутренних дел*</p>
     <div class="details">т. 10 Лекция<br>Кайбелев П.А.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданский процесс</p>
     <div class="details">т. 15 Лекция<br>Фицук Т.М.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 9 Лекция<br>Кравцова М.А.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ФиФР</p>
     <div class="details">т. 5 с<br>Ефимович В.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Устройство и ТО а/м категории "В"</p>
     <div class="details">т. 1 с<br>Серебряков В.В.<br>ауд. 431 МАШ<br>ауд. 429 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-9"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-wed-9"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданское право (часть 2)</p>
     <div class="details">т. 8.1 Лекция<br>Березнев Р.Ю.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 15 Лекция<br>Вильмак Д.Г.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Криминалистика</p>
     <div class="details">т. 7 Лекция<br>Костюкевич Д.В.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. право (часть 2)</p>
     <div class="details">т. 7 с<br>Березнев Р.Ю.<br>ауд. 2-303ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-10"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-wed-10"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданский процесс</p>
     <div class="details">т. 18,19 Лекция<br>Фицук Т.М.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 11 с<br>Кравцова М.А.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т.11.1 пр<br>Кравец В.В.<br>ауд. 243 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОпБПЛАвПО</p>
     <div class="details">т. 4.5 пр<br>Горбачев С.В.<br>Чепик П.А.<br>ПОЛИГОН<br>ауд. 226 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-11"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-wed-11"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. право (часть 2)</p>
     <div class="details">т. 8.2 с<br>Березнев Р.Ю.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ФиФР</p>
     <div class="details">т. 6 пр<br>Ефимович В.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 14.7 пр<br>Равко Р.В. Турок Н.А. с/з МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Финансы и финансовый рынок</p>
     <div class="details">т. 8.2 Лекция<br>Дешук А.В.<br>ауд. Л/з № 2-304 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-12"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-wed-12"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Сем. право</p>
     <div class="details">т. 9,10 с<br>Яхновец И.Н.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. право (часть 2)</p>
     <div class="details">т. 8.3 с<br>Березнев Р.Ю.<br>ауд. 2-303ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 13 с<br>Кравец В.В.<br>ауд. 243 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Финансы и финансовый рынок</p>
     <div class="details">т. 9 Лекция<br>Дешук А.В.<br>ауд. Л/з № 2-304 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-13"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-wed-13"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. проц.</p>
     <div class="details">23-25 с<br>Фицук Т.М.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 17.7 пр<br>Равко Р.В.<br>Турок Н.А. с/з МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 8.2 пр<br>Ропот Р.М.<br>Костюкевич Д.В.<br>ауд. 127a МАШ 130 МАШ<br>ауд. 126 МАШ 132 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 8.2 пр<br>Ропот Р.М.<br>Костюкевич Д.В.<br>ауд. 127a МАШ 130 МАШ<br>ауд. 126 МАШ 132 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-14"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-wed-14"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Криминалистика</p>
     <div class="details">т. 8.7 Лекция<br>Ропот Р.М.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 15.1 пр<br>Кравец В.В.<br>ауд. 243 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ФиФР</p>
     <div class="details">т. 10 с<br>Ефимович В.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 8.6 пр<br>Ропот Р.М.<br>Костюкевич Д.В.<br>ауд. 127a МАШ 130 МАШ<br>ауд. 126 МАШ 132 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-15"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-wed-15"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Оперативно-розыскная деятельность органов внутренних дел*</p>
     <div class="details">т. 17 Лекция<br>Шинкевич А.М.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 10.2 с<br>Ропот Р.М.<br>ауд. 127а МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. право (часть 2)</p>
     <div class="details">т. 13.1 с<br>Березнев Р.Ю.<br>ауд. 2-303ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 24.3 пр<br>Равко Р.В.<br>Турок Н.А. с/з МАШ</div>
   </div>
-</div><div class="lesson-card">
+</div><div class="lesson-card" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <p class="subject">Сем. право</p>
     <div class="details">Зачет<br>Яхновец И.Н.<br>ауд. 2-303 ФКМ<br>15.50</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-16"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-wed-16"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданское право (часть 2)</p>
     <div class="details">т. 15 Лекция<br>Березнев Р.Ю.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 18 с<br>Кравец В.В.<br>ауд. 243 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 18.1 пр<br>Кравец В.В.<br>ауд. 228 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 21 с<br>Вильмак Д.Г.<br>ауд. 2-303 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-wed-17"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-wed-17"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 22-23 Лекция<br>Вильмак Д.Г.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card">
+</div><div class="lesson-card" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <p class="subject">ОРД ОВД *Зачет</p>
     <div class="details">Мартынов А.О.<br>ауд. 243 МАШ<br>10.00</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="6">
   <div class="lesson-time"><span class="num">6 пара</span>17.20&#8211;<br>18.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Огн.подг-ка</p>
@@ -1917,462 +1940,462 @@
   </div>
 </div></div></div>
 <div class="panel panel-4101-wed-18"><div class="no-data"><div class="big">Занятий нет</div>на этой неделе</div></div>
-<div class="panel panel-4101-thu-0"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-thu-0"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 1 Лекция<br>Кравцова М.А.<br>Л/з № 2-304 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 1-3 с<br>Вильмак Д.Г.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Сем. право</p>
     <div class="details">т. 1,3 с<br>Яхновец И.Н.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 3.1 пр<br>Равко Р.В. Турок Н.А. Спортгородок</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-thu-1"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-thu-1"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданское право (часть 2)</p>
     <div class="details">т. 1.2 Лекция<br>Березнев Р.Ю.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 3 Лекция<br>Кравцова М.А.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 2 с<br>Кравцова М.А.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 1.2 с<br>Ропот Р.М.<br>ауд. 127а МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-thu-2"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-thu-2"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Бухгалтерский учет и аудит</p>
     <div class="details">т. 1 Лекция<br>Дорошкевич Н.М.<br>Л/з №-304 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 3.2 с<br>Ропот Р.М.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. право (часть 2)</p>
     <div class="details">т. 1.2 с<br>Березнев Р.Ю.<br>ауд. 2-303ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОУТС и БДД</p>
     <div class="details">т. 2. с<br>Серебряков В.В.<br>ауд. 508 МАШ<br>ауд. 510 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-thu-3"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-thu-3"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Семейное право</p>
     <div class="details">т. 5 Лекция<br>Яхновец И.Н.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 5.1 пр<br>Кравец В.В.<br>ауд. 243 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 4.4 пр<br>Костюкевич Д.В. ауд. 127a МАШ 130 МАШ<br>Ропот Р.М. ауд. 126 МАШ 132 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 4.4 пр<br>Костюкевич Д.В. ауд. 127a МАШ 130 МАШ<br>Ропот Р.М. ауд. 126 МАШ 132 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Огн.подг-ка</p>
     <div class="details">т. 21.1 пр<br>Денисевич М.В.<br>Протосевич С.И. Тир МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-thu-4"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-thu-4"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Криминалистика</p>
     <div class="details">т. 5.1 Лекция<br>Костюкевич Д.В.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Бухгалтерский учет и аудит</p>
     <div class="details">т. 2 Лекция<br>Дорошкевич Н.М.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Бухгалтерский учет и аудит</p>
     <div class="details">т. 3 Лекция<br>Дорошкевич Н.М.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 5.2 пр<br>Кравец В.В.<br>ауд. 245 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-thu-5"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-thu-5"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Бухгалтерский учет и аудит</p>
     <div class="details">т. 4 Лекция<br>Дорошкевич Н.М.<br>ауд. Л/з № 2-304 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 9 пр<br>Вильмак Д.Г.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">БУиА</p>
     <div class="details">т. 3 с<br>Сауткин И.В.<br>ауд. 512 МАШ<br>Дорошкевич Н.М.<br>ауд. 508 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 6.1 Лекция<br>Дешук А.В.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОУТС и БДД</p>
     <div class="details">т. 7. с<br>Серебряков В.В.<br>ауд. 510 МАШ<br>ауд. 509 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-thu-6"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-thu-6"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Бухгалтерский учет и аудит</p>
     <div class="details">т. 5 Лекция<br>Дорошкевич Н.М.<br>ауд. Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Бухгалтерский учет и аудит</p>
     <div class="details">т. 6.1 Лекция<br>Дорошкевич Н.М.<br>ауд. Л/з №1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданское право (часть 2)</p>
     <div class="details">т. 6 Лекция<br>Березнев Р.Ю.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданский процесс</p>
     <div class="details">т. 11-12 Лекция<br>Фицук Т.М.<br>Л/з № 2 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-thu-7"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-thu-7"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т.9.1 пр<br>Кравец В.В.<br>ауд. 243 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т.9.2 пр<br>Кравец В.В.<br>ауд. 243 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Бухгалтерский учет и аудит</p>
     <div class="details">т. 6.2 Лекция<br>Дорошкевич Н.М.<br>ауд. Л/з №1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 4.6 пр<br>Равко Р.В. Турок Н.А. спортгородок</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="6">
   <div class="lesson-time"><span class="num">6 пара</span>17.20&#8211;<br>18.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Устройство и ТО а/м категории "В"</p>
     <div class="details">т. 1 Лекция<br>Серебряков В.В.<br>Л/з № 2 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-thu-8"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-thu-8"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Семейное право</p>
     <div class="details">т. 7 Лекция<br>Яхновец И.Н.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 11 с<br>Вильмак Д.Г.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданское право (часть 2)</p>
     <div class="details">т. 7 Лекция<br>Березнев Р.Ю.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 14 Лекция<br>Вильмак Д.Г.<br>Л/з № 2 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-thu-9"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-thu-9"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Бухгалтерский учет и аудит</p>
     <div class="details">т. 8 Лекция<br>Дорошкевич Н.М.<br>ауд. 2-304 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 6.4 пр<br>Костюкевич Д.В. ауд. 2-303 ФКМ<br>Беломытцев Н.Н. ауд. 2-405 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 6.2 с<br>Дешук А.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т.10.1 пр<br>Кравец В.В.<br>ауд. 245 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-thu-10"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-thu-10"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Финансы и финансовый рынок</p>
     <div class="details">т. 6.2 Лекция<br>Дешук А.В.<br>ауд. Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Сем. право</p>
     <div class="details">т. 7 с<br>Яхновец И.Н.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Огн.подг-ка</p>
     <div class="details">т. 22.3 пр<br>Денисевич М.В.<br>Протосевич С.И.<br>Тир МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОпБПЛАвПО</p>
     <div class="details">т. 4.6 пр<br>Горбачев С.В.<br>Чепик П.А.<br>ПОЛИГОН<br>ауд. 226 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-thu-11"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-thu-11"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Гражданский процесс</p>
     <div class="details">т. 20 Лекция<br>Фицук Т.М.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 17 Лекция<br>Вильмак Д.Г.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 17.1 пр<br>Равко Р.В.<br>Турок Н.А. с/з МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ФиФР</p>
     <div class="details">т. 7 с<br>Ефимович В.В.<br>ауд. 2-303 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-thu-12"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-thu-12"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. право (часть 2)</p>
     <div class="details">т. 9 с<br>Березнев Р.Ю.<br>ауд. 2-303ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. проц.</p>
     <div class="details">т. 20 с<br>Фицук Т.М.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 17.4 пр<br>Равко Р.В.<br>Турок Н.А. с/з МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Огн.подг-ка</p>
     <div class="details">т. 22.5 пр К<br>Денисевич М.В.<br>Протосевич С.И.<br>Тир МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-thu-13"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-thu-13"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Бухгалтерский учет и аудит</p>
     <div class="details">т. 9 Лекция<br>Дорошкевич Н.М.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 8.3 пр<br>Ропот Р.М.<br>Костюкевич Д.В.<br>ауд. 127a МАШ 130 МАШ<br>ауд. 126 МАШ 132 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">БУиА</p>
     <div class="details">т. 8 с<br>Сауткин И.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 14 с<br>Кравец В.В.<br>ауд. 243 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="6">
   <div class="lesson-time"><span class="num">6 пара</span>17.20&#8211;<br>18.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Огн.подг-ка</p>
     <div class="details">т. 23.2 пр<br>Денисевич М.В.<br>Протосевич С.И.<br>Тир МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-thu-14"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-thu-14"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Криминалистика</p>
     <div class="details">т. 9.1 Лекция<br>Костюкевич Д.В.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 8.8 с<br>Ропот Р.М.<br>ауд. 127а МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. проц.</p>
     <div class="details">26-27 с<br>Фицук Т.М.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 23.1 пр<br>Равко Р.В.<br>Турок Н.А. с/з МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-thu-15"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-thu-15"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Криминалистика</p>
     <div class="details">т. 11.1 Лекция<br>Костюкевич Д.В.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Криминалистика</p>
     <div class="details">т. 12.1 Лекция<br>Ропот Р.М.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 10.3 пр<br>Ропот Р.М. ауд. 127а МАШ<br>Костюкевич Д.В. ауд. 2-305 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 10.3 пр<br>Ропот Р.М. ауд. 127а МАШ<br>Костюкевич Д.В. ауд. 2-303 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-thu-16"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-thu-16"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 25.3 пр<br>Равко Р.В.<br>Турок Н.А. с/з МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Оперативно-розыскная деятельность органов внутренних дел*</p>
     <div class="details">т. 20 Лекция<br>Шинкевич А.М.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 19 с<br>Кравец В.В.<br>ауд. 243 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. право (часть 2)</p>
     <div class="details">т. 15 с<br>Березнев Р.Ю.<br>ауд. 2-303 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-thu-17"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-thu-17"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. право (часть 2)</p>
     <div class="details">т. 16,17 с<br>Березнев Р.Ю.<br>ауд. 2-303ФКМ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
@@ -2380,388 +2403,388 @@
   </div>
 </div></div></div>
 <div class="panel panel-4101-thu-18"><div class="no-data"><div class="big">Занятий нет</div>на этой неделе</div></div>
-<div class="panel panel-4101-fri-0"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-fri-0"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. проц.</p>
     <div class="details">т. 1-2 с<br>Фицук Т.М.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 3.2 пр<br>Равко Р.В. Турок Н.А. спортгородок</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="5">
   <div class="lesson-time"><span class="num">5 пара</span>15.50&#8211;<br>17.10</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">ОУТС и БДД</p>
     <div class="details">т. 1.1 Лекция<br>Серебряков В.В.<br>Л/з № 3 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-fri-1"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-fri-1"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Криминалистика</p>
     <div class="details">т. 2.1 Лекция<br>Костюкевич Д.В.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Оперативно-розыскная деятельность органов внутренних дел*</p>
     <div class="details">т. 3 Лекция<br>Шинкевич А.М.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Финансы и финансовый рынок</p>
     <div class="details">т. 1 Лекция<br>Дешук А.В.<br>ауд. Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 4-5 с<br>Вильмак Д.Г.<br>ауд. 2-303 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-fri-2"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-fri-2"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 4-5 Лекция<br>Кравцова М.А.<br>Л/з № 2-304 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Сем. право</p>
     <div class="details">т. 4 с<br>Яхновец И.Н.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 3.6 пр<br>Равко Р.В. Турок Н.А. спортгородок</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОУТС и БДД</p>
     <div class="details">т. 4 с<br>Серебряков В.В.<br>ауд. 431 МАШ<br>ауд. 429 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-fri-3"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-fri-3"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 4 Лекция<br>Дешук А.В.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. проц.</p>
     <div class="details">т. 6 с<br>Фицук Т.М.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ФиФР</p>
     <div class="details">т. 2.1 с<br>Ефимович В.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Сем. право</p>
     <div class="details">т. 5 с<br>Яхновец И.Н.<br>ауд. 2-303 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-fri-4"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-fri-4"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. право (часть 2)</p>
     <div class="details">т. 2.2 с<br>Березнев Р.Ю.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 6.1 пр<br>Кравец В.В.<br>ауд. 222 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">БУиА</p>
     <div class="details">т. 2 с<br>Сауткин И.В.<br>ауд. 2-303 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-fri-5"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-fri-5"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 7.2 пр<br>Кравец В.В.<br>ауд. 245 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 6 с<br>Кравцова М.А.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 5.1 с<br>Дешук А.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 7 Лекция<br>Кравцова М.А.<br>Л/з № 2 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-fri-6"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-fri-6"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 5.3 пр<br>Костюкевич Д.В. ауд. 127a МАШ 130 МАШ<br>Беломытцев Н.Н. ауд. 126 МАШ 132 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 5.3 пр<br>Костюкевич Д.В. ауд. 127a МАШ 130 МАШ<br>Беломытцев Н.Н. ауд. 126 МАШ 132 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 4.5 пр<br>Равко Р.В. Турок Н.А. спортгородок</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 11 Лекция<br>Вильмак Д.Г.<br>Л/з № 3 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-fri-7"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-fri-7"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 14.1 пр<br>Равко Р.В. Турок Н.А. с/з МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 6.2 с<br>Ропот Р.М.<br>ауд. 127а МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 6.2 Лекция<br>Дешук А.В.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Финансы и финансовый рынок</p>
     <div class="details">т. 5 Лекция<br>Дешук А.В.<br>ауд. Л/з № 2 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-fri-8"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-fri-8"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Финансы и финансовый рынок</p>
     <div class="details">т. 6.1 Лекция<br>Дешук А.В.<br>ауд. Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Криминалистика</p>
     <div class="details">т. 7 Лекция<br>Костюкевич Д.В.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 14.4 пр<br>Равко Р.В. Турок Н.А. с/з МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">БУиА</p>
     <div class="details">т. 6 с<br>Сауткин И.В.<br>ауд. 2-303 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-fri-9"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-fri-9"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОпБПЛАвПО</p>
     <div class="details">т. 4.3 пр<br>Горбачев С.В.<br>Чепик П.А.<br>ауд. 314 БАГ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОпБПЛАвПО</p>
     <div class="details">т. 4.3 пр<br>Горбачев С.В.<br>Чепик П.А.<br>ауд. 314 БАГ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 14.5 пр<br>Равко Р.В. Турок Н.А. с/з МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Огн.подг-ка</p>
     <div class="details">т. 22.2 пр<br>Денисевич М.В.<br>Протосевич С.И.<br>Тир МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-fri-10"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-fri-10"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Устройство и ТО а/м категории "В"</p>
     <div class="details">т. 1 пр<br>Серебряков В.В.<br>ауд. 508 МАШ<br>ауд. 512 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 7.2 с<br>Ропот Р.М.<br>ауд. 127а МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 14 с<br>Вильмак Д.Г.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОпБПЛАвПО</p>
     <div class="details">т. 4.7 пр<br>Горбачев С.В.<br>Чепик П.А.<br>ПОЛИГОН<br>ауд. 226 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-fri-11"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-fri-11"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. проц.</p>
     <div class="details">т. 18,19 с<br>Фицук Т.М.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 16 с<br>Вильмак Д.Г.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Сем. право</p>
     <div class="details">т. 8 с<br>Яхновец И.Н.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 17.2 пр<br>Равко Р.В.<br>Турок Н.А. с/з МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-fri-12"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-fri-12"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ФиФР</p>
     <div class="details">т. 8.2 с<br>Ефимович В.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Хозяйственное право</p>
     <div class="details">т. 17 с<br>Вильмак Д.Г.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 7.3 пр<br>Костюкевич Д.В.М<br>Беломытцев Н.Н.<br>ауд. 127a МАШ 130 МАШ<br>ауд. 126 МАШ 132 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 7.4 пр<br>Костюкевич Д.В.М<br>Беломытцев Н.Н.<br>ауд. 127a МАШ 130 МАШ<br>ауд. 126 МАШ 132 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-fri-13"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-fri-13"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Криминалистика</p>
     <div class="details">т. 8.5 Лекция<br>Ропот Р.М.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Оперативно-розыскная деятельность органов внутренних дел*т. 16 Лекция</p>
     <div class="details">Шинкевич А.М.<br>Л/з № 2 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 14.1 пр<br>Кравец В.В.<br>ауд. 245 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Семейное право</p>
     <div class="details">т. 11 Лекция<br>Яхновец И.Н.<br>Л/з № 2 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-fri-14"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-fri-14"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 23.2 пр<br>Равко Р.В.<br>Турок Н.А. с/з МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Сем. право</p>
     <div class="details">т. 12,13 с<br>Яхновец И.Н.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 9.2 с<br>Ропот Р.М.<br>ауд. 127а МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Криминалистика</p>
     <div class="details">т. 10.1 Лекция<br>Костюкевич Д.В.<br>Л/з № 3 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-fri-15"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-fri-15"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 17 с<br>Кравец В.В.<br>ауд. 245 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Огн.подг-ка</p>
     <div class="details">т. 24.2 пр<br>Денисевич М.В.<br>Протосевич С.И.<br>Тир МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. проц. 28 с</p>
     <div class="details">Фицук Т.М.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="4">
   <div class="lesson-time"><span class="num">4 пара</span>14.20&#8211;<br>15.40</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Хозяйственное право</p>
@@ -2771,165 +2794,165 @@
 <div class="panel panel-4101-fri-16"><div class="no-data"><div class="big">Занятий нет</div>на этой неделе</div></div>
 <div class="panel panel-4101-fri-17"><div class="no-data"><div class="big">Занятий нет</div>на этой неделе</div></div>
 <div class="panel panel-4101-fri-18"><div class="no-data"><div class="big">Занятий нет</div>на этой неделе</div></div>
-<div class="panel panel-4101-sat-0"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-sat-0"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 2 Лекция<br>Кравцова М.А.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. проц.</p>
     <div class="details">т. 3 с<br>Фицук Т.М.<br>ауд. 2-315 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 1 с<br>Кравцова М.А.<br>ауд. 2-315 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-sat-1"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-sat-1"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Финансы и финансовый рынок</p>
     <div class="details">т. 2 Лекция<br>Дешук А.В.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 1-3 Лекция<br>Дешук А.В.<br>Л/з № 2-210 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 1-3 Лекция<br>Дешук А.В.<br>Л/з № 2-210 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-sat-2"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-sat-2"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 1-3 с<br>Дешук А.В.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 3 с<br>Кравцова М.А.<br>ауд. 2-303 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Основы пользования БПЛА в правоохранительных органах</p>
     <div class="details">т. 2.1 Лекция<br>Назаренко Д.А.<br>Л/з № ,3 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-sat-3"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-sat-3"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОпБПЛАвПО</p>
     <div class="details">т. 3.1 пр<br>Горбачев С.В.<br>Чепик П.А.<br>ауд. 509 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 4 с<br>Дешук А.В.<br>ауд. 2-305 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">БУиА</p>
     <div class="details">т. 1 с<br>Сауткин И.В.<br>ауд. 2-303 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-sat-4"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-sat-4"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 6.2 пр<br>Кравец В.В.<br>ауд. 245 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 7 с<br>Кравец В.В.<br>ауд. 243 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-sat-5"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-sat-5"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. проц.</p>
     <div class="details">т. 10 с<br>Фицук Т.М.<br>ауд. 2-325 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ФиФР</p>
     <div class="details">т. 4 с<br>Ефимович В.В.<br>ауд. 2-315 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 8.1 пр<br>Кравец В.В.<br>ауд. 245 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-sat-6"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-sat-6"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 5.4 пр<br>Костюкевич Д.В. ауд. 2-303 ФКМ<br>Беломытцев Н.Н. ауд. 2-305 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОпБПЛАвПО</p>
     <div class="details">т. 4.1 пр<br>Горбачев С.В.<br>Чепик П.А.<br>ПОЛИГОН<br>ауд. 226 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 8 с<br>Кравцова М.А.<br>ауд. 2-402 ФКМ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-sat-7"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-sat-7"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 6.3 пр<br>Костюкевич Д.В. ауд. 2-307 ФКМ<br>Беломытцев Н.Н. ауд. 2-315 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Крим-ка</p>
     <div class="details">т. 6.3 пр<br>Костюкевич Д.В. ауд. 2-402 ФКМ<br>Беломытцев Н.Н. ауд. 2-315 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 14.2 пр<br>Равко Р.В. Турок Н.А. с/з МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-sat-8"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-sat-8"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 6.3 Лекция<br>Дешук А.В.<br>Л/з № 3 МАШ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Природоресурсное право</p>
     <div class="details">т. 10 Лекция<br>Кравцова М.А.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Природоресурсное право</p>
@@ -2937,114 +2960,114 @@
   </div>
 </div></div></div>
 <div class="panel panel-4101-sat-9"><div class="no-data"><div class="big">Занятий нет</div>на этой неделе</div></div>
-<div class="panel panel-4101-sat-10"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-sat-10"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 12 с<br>Кравец В.В.<br>ауд. 243 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. проц.</p>
     <div class="details">т. 17 с<br>Фицук Т.М.<br>ауд. 2-305 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Лекция">
+</div><div class="lesson-card type-Лекция" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 7 Лекция<br>Дешук А.В.<br>Л/з № 3 МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-sat-11"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-sat-11"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 8 Лекция<br>Дешук А.В.<br>Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Семинар">
+</div><div class="lesson-card type-Семинар" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Налоговое право</p>
     <div class="details">т. 7 с<br>Дешук А.В.<br>ауд. 2-307 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">Огн.подг-ка</p>
     <div class="details">т. 22.4 пр<br>Денисевич М.В.<br>Протосевич С.И.<br>Тир МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-sat-12"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-sat-12"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">Гражд. проц.</p>
     <div class="details">т. 21-22 с<br>Фицук Т.М.<br>ауд. 2-305 ФКМ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т.12.2 пр<br>Кравец В.В.<br>ауд. 237 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 17.5 пр<br>Равко Р.В.<br>Турок Н.А. с/з МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-sat-13"><div class="lessons"><div class="lesson-card type-Лекция">
+<div class="panel panel-4101-sat-13"><div class="lessons"><div class="lesson-card type-Лекция" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Лекция">Лекция</span><br><p class="subject">Финансы и финансовый рынок</p>
     <div class="details">т. 10 Лекция<br>Дешук А.В.<br>ауд. Л/з № 1 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 14.2 пр<br>Кравец В.В.<br>ауд. 245 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 22.1 пр<br>Равко Р.В.<br>Турок Н.А. с/з МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-sat-14"><div class="lessons"><div class="lesson-card type-Семинар">
+<div class="panel panel-4101-sat-14"><div class="lessons"><div class="lesson-card type-Семинар" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Семинар">Семинар</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 16 с<br>Кравец В.В.<br>ауд. 243 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 16.1 пр<br>Кравец В.В.<br>ауд. 243 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 24.1 пр<br>Равко Р.В.<br>Турок Н.А. с/з МАШ</div>
   </div>
 </div></div></div>
-<div class="panel panel-4101-sat-15"><div class="lessons"><div class="lesson-card type-Практика">
+<div class="panel panel-4101-sat-15"><div class="lessons"><div class="lesson-card type-Практика" data-pair="1">
   <div class="lesson-time"><span class="num">1 пара</span>8.30&#8211;<br>9.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ППФП</p>
     <div class="details">т. 25.1 пр<br>Равко Р.В.<br>Турок Н.А. с/з МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="2">
   <div class="lesson-time"><span class="num">2 пара</span>10.00&#8211;<br>11.20</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
     <div class="details">*т. 17.1 пр<br>Кравец В.В.<br>ауд. 243 МАШ</div>
   </div>
-</div><div class="lesson-card type-Практика">
+</div><div class="lesson-card type-Практика" data-pair="3">
   <div class="lesson-time"><span class="num">3 пара</span>11.30&#8211;<br>12.50</div>
   <div class="lesson-body">
     <span class="badge type-Практика">Практика</span><br><p class="subject">ОРД ОВД</p>
@@ -3055,8 +3078,140 @@
 <div class="panel panel-4101-sat-17"><div class="no-data"><div class="big">Занятий нет</div>на этой неделе</div></div>
 <div class="panel panel-4101-sat-18"><div class="no-data"><div class="big">Занятий нет</div>на этой неделе</div></div>
 
+    <footer>
+      <div>Расписание учебных занятий · Академия МВД</div>
+      <span class="credit">4101</span>
+    </footer>
+
   </div>
 </div>
+
+
+<script>
+(function() {
+  const PAIR_TIMES = [
+    { num: 1, start: 8 * 60 + 30, end: 9 * 60 + 50 },
+    { num: 2, start: 10 * 60,     end: 11 * 60 + 20 },
+    { num: 3, start: 11 * 60 + 30, end: 12 * 60 + 50 },
+    { num: 4, start: 14 * 60 + 20, end: 15 * 60 + 40 },
+    { num: 5, start: 15 * 60 + 50, end: 17 * 60 + 10 },
+    { num: 6, start: 17 * 60 + 20, end: 18 * 60 + 40 },
+    { num: 7, start: 18 * 60 + 50, end: 20 * 60 + 10 }
+  ];
+
+  const DAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+
+  const WEEK_STARTS = [
+    new Date(2026, 7, 31), // w0
+    new Date(2026, 8, 7),  // w1
+    new Date(2026, 8, 14), // w2
+    new Date(2026, 8, 21), // w3
+    new Date(2026, 8, 28), // w4
+    new Date(2026, 9, 5),  // w5
+    new Date(2026, 9, 12), // w6
+    new Date(2026, 9, 19), // w7
+    new Date(2026, 9, 26), // w8
+    new Date(2026, 10, 2), // w9
+    new Date(2026, 10, 9), // w10
+    new Date(2026, 10, 16),// w11
+    new Date(2026, 10, 23),// w12
+    new Date(2026, 10, 30),// w13
+    new Date(2026, 11, 7), // w14
+    new Date(2026, 11, 14),// w15
+    new Date(2026, 11, 21),// w16
+    new Date(2026, 11, 28),// w17
+    new Date(2027, 0, 4)   // w18
+  ];
+
+  function getTodayDayCode() {
+    const d = new Date().getDay();
+    if (d >= 1 && d <= 6) return DAYS[d];
+    return 'mon';
+  }
+
+  function getActiveWeekIdx() {
+    const now = new Date();
+    for (let i = 0; i < WEEK_STARTS.length; i++) {
+      const start = WEEK_STARTS[i];
+      const end = new Date(start);
+      end.setDate(end.getDate() + 7);
+      if (now >= start && now < end) {
+        return i;
+      }
+    }
+    if (now < WEEK_STARTS[0]) return 0;
+    return WEEK_STARTS.length - 1;
+  }
+
+  function getCurrentPairNum() {
+    const now = new Date();
+    const curMins = now.getHours() * 60 + now.getMinutes();
+    for (const p of PAIR_TIMES) {
+      if (curMins >= p.start && curMins <= p.end) {
+        return p.num;
+      }
+    }
+    return null;
+  }
+
+  function updateActiveBadges() {
+    document.querySelectorAll('.lesson-card.now').forEach(c => c.classList.remove('now'));
+    document.querySelectorAll('.badge-now-live').forEach(b => b.remove());
+
+    const activeWeek = getActiveWeekIdx();
+    const todayCode = getTodayDayCode();
+    const currentPair = getCurrentPairNum();
+
+    if (!currentPair) return;
+
+    const currentPanel = document.querySelector('.panel-4101-' + todayCode + '-' + activeWeek);
+    if (!currentPanel) return;
+
+    const cards = currentPanel.querySelectorAll('.lesson-card');
+    cards.forEach(card => {
+      const pNum = card.getAttribute('data-pair');
+      if (pNum === String(currentPair)) {
+        card.classList.add('now');
+        const body = card.querySelector('.lesson-body');
+        if (body && !body.querySelector('.badge-now-live')) {
+          const badge = document.createElement('span');
+          badge.className = 'badge badge-now-live';
+          badge.innerHTML = '● Идёт сейчас';
+          body.insertBefore(badge, body.firstChild);
+        }
+      }
+    });
+  }
+
+  function init() {
+    // 1. Выбираем сегодняшний день
+    const todayCode = getTodayDayCode();
+    const dayRadio = document.getElementById('day-' + todayCode);
+    if (dayRadio) dayRadio.checked = true;
+
+    // 2. Выбираем текущую неделю
+    const weekIdx = getActiveWeekIdx();
+    const weekRadio = document.getElementById('week-' + weekIdx);
+    if (weekRadio) weekRadio.checked = true;
+
+    // Метка "Текущая неделя"
+    document.querySelectorAll('.week-nav .rel').forEach(r => r.innerHTML = '&nbsp;');
+    const curNavRel = document.querySelector('.week-nav-' + weekIdx + ' .rel');
+    if (curNavRel) curNavRel.textContent = 'Текущая неделя';
+
+    // 3. Подсвечиваем текущую пару
+    updateActiveBadges();
+    setInterval(updateActiveBadges, 30000);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
+
 
 </body>
 </html>
